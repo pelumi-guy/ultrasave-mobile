@@ -1,0 +1,468 @@
+$ npm run android
+
+> ultrasave@0.1.0 android
+> node scripts/android.cjs
+
+Using Java 17: C:\Users\HP\.gradle\jdks\eclipse_adoptium-17-amd64-windows.2
+› Building app...
+Configuration on demand is an incubating feature.
+
+> Configure project :
+[ExpoRootProject] The Kotlin Gradle plugin used by this build is 2.2.10, but the version catalog declares 2.2.0. Using the plugin version.
+[ExpoRootProject] Using the following versions:
+  - buildTools:  37.0.0
+  - minSdk:      24
+  - compileSdk:  37
+  - targetSdk:   36
+  - ndk:         27.1.12297006
+  - kotlin:      2.2.10
+  - ksp:         2.2.10-2.0.2
+
+> Configure project :app
+WARNING: The option setting 'android.builtInKotlin=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+WARNING: The option setting 'android.newDsl=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+ ??  Applying gradle plugin 'expo-max-sdk-override-plugin'
+  [expo-max-sdk-override-plugin] This plugin will find all permissions declared with `android:maxSdkVersion`. If there exists a declaration with the `android:maxSdkVersion` annotation and another one without, the plugin will remove the annotation from the final merged manifest. In order to see a log with the changes run a clean build of the app.
+WARNING: API 'applicationVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling applicationVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'testVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling testVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'unitTestVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling unitTestVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+ ??  Applying gradle plugin 'expo-dev-launcher-gradle-plugin'
+
+> Configure project :expo
+WARNING: API 'libraryVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling libraryVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+Using expo modules
+  - expo-dom-webview (58.0.2)
+  - expo-log-box (58.0.15)
+  - expo-constants (58.0.15)
+  - expo-dev-client (58.0.18)
+  - expo-dev-launcher (58.0.18)NG [14s]
+  - expo-dev-menu (58.0.12)
+  - expo-dev-menu-interface (58.0.1)5s]
+  - expo-json-utils (58.0.1)
+  - expo-manifests (58.0.1)
+
+> Configure project :expo-modules-core
+Linking react-native-worklets native libs into expo-modules-core build tasks
+task ':react-native-worklets:mergeDebugNativeLibs'
+task ':react-native-worklets:mergeReleaseNativeLibs'
+
+> Configure project :expo
+  - expo-modules-core (58.0.30)
+  - expo-updates-interface (58.0.1)19s]
+  - ultrasave-storage (0.1.0)
+  - [?] expo-asset (58.0.20)
+  - [?] expo-clipboard (58.0.4)
+  - [?] expo-document-picker (58.0.4)
+  - [?] expo-file-system (58.0.13)
+  - [?] expo-font (58.0.11)
+  - [?] expo-keep-awake (58.0.3)
+  - [?] expo-linking (58.0.16)
+  - [?] expo-router (58.0.30)
+  - [?] expo-secure-store (58.0.2)
+  - [?] expo-sharing (58.0.22)
+  - [?] expo-sqlite (58.0.15)
+  - [?] expo-status-bar (58.0.4)
+  - [?] expo-system-ui (58.0.7)
+  - [?] expo-video (58.0.13)
+
+
+> Task :expo-modules-core:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :expo-manifests:compileDebugKotlin
+w: file:///C:/Users/HP/source/repos/UltraSave/node_modules/expo-manifests/android/src/main/java/expo/modules/manifests/core/EmbeddedManifest.kt:19:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///C:/Users/HP/source/repos/UltraSave/node_modules/expo-manifests/android/src/main/java/expo/modules/manifests/core/EmbeddedManifest.kt:19:86 'fun getLegacyID(): String' is deprecated. Prefer scopeKey or projectId depending on use case.
+w: file:///C:/Users/HP/source/repos/UltraSave/node_modules/expo-manifests/android/src/main/java/expo/modules/manifests/core/ExpoUpdatesManifest.kt:16:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///C:/Users/HP/source/repos/UltraSave/node_modules/expo-manifests/android/src/main/java/expo/modules/manifests/core/Manifest.kt:13:3 Deprecations and opt-ins on a method overridden from 'Any' may not be reported.
+w: file:///C:/Users/HP/source/repos/UltraSave/node_modules/expo-manifests/android/src/main/java/expo/modules/manifests/core/Manifest.kt:15:12 'fun getRawJson(): JSONObject' is deprecated. Prefer to use specific field getters.
+
+> Task :expo-dom-webview:compileDebugKotlin
+w: file:///C:/Users/HP/source/repos/UltraSave/node_modules/@expo/dom-webview/android/src/main/java/expo/modules/webview/DomWebView.kt:200:16 'var allowFileAccessFromFileURLs: Boolean' is deprecated. Deprecated in Java.
+w: file:///C:/Users/HP/source/repos/UltraSave/node_modules/@expo/dom-webview/android/src/main/java/expo/modules/webview/DomWebView.kt:254:18 'fun executeOnJavaScriptThread(runnable: Runnable): Unit' is deprecated. Use RuntimeContext.schedule instead.
+
+> Task :react-native-gesture-handler:compileDebugKotlin
+w: file:///C:/Users/HP/source/repos/UltraSave/node_modules/react-native-gesture-handler/android/src/main/java/com/swmansion/gesturehandler/react/RNGestureHandlerButtonViewManager.kt:799:45 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+w: file:///C:/Users/HP/source/repos/UltraSave/node_modules/react-native-gesture-handler/android/src/main/java/com/swmansion/gesturehandler/react/RNGestureHandlerButtonViewManager.kt:1187:45 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+w: file:///C:/Users/HP/source/repos/UltraSave/node_modules/react-native-gesture-handler/android/src/main/java/com/swmansion/gesturehandler/react/RNGestureHandlerDetectorView.kt:240:43 'fun getEventDispatcherForReactTag(context: ReactContext, reactTag: Int): EventDispatcher?' is deprecated. reactTag is no longer needed.
+
+> Task :expo-dev-menu:compileDebugKotlin
+w: file:///C:/Users/HP/source/repos/UltraSave/node_modules/expo-dev-menu/android/src/debug/java/com/facebook/react/devsupport/DevMenuSettingsBase.kt:6:8 'class PreferenceManager : Any' is deprecated. Deprecated in Java.
+w: file:///C:/Users/HP/source/repos/UltraSave/node_modules/expo-dev-menu/android/src/debug/java/com/facebook/react/devsupport/DevMenuSettingsBase.kt:18:51 'class PreferenceManager : Any' is deprecated. Deprecated in Java.
+w: file:///C:/Users/HP/source/repos/UltraSave/node_modules/expo-dev-menu/android/src/debug/java/com/facebook/react/devsupport/DevMenuSettingsBase.kt:18:69 'static fun getDefaultSharedPreferences(p0: Context!): SharedPreferences!' is deprecated. Deprecated in Java.
+w: file:///C:/Users/HP/source/repos/UltraSave/node_modules/expo-dev-menu/android/src/debug/java/com/facebook/react/devsupport/DevMenuSettingsBase.kt:51:13 This code uses error suppression for 'NOTHING_TO_OVERRIDE'. While it might compile and work, the compiler behavior is UNSPECIFIED and WILL NOT BE PRESERVED. Please report your use case to the Kotlin issue tracker instead: https://kotl.in/issue
+w: file:///C:/Users/HP/source/repos/UltraSave/node_modules/expo-dev-menu/android/src/debug/java/com/facebook/react/devsupport/DevMenuSettingsBase.kt:58:13 This code uses error suppression for 'NOTHING_TO_OVERRIDE'. While it might compile and work, the compiler behavior is UNSPECIFIED and WILL NOT BE PRESERVED. Please report your use case to the Kotlin issue tracker instead: https://kotl.in/issue
+
+> Task :react-native-reanimated:buildCMakeDebug[x86_64][reanimated] FAILED
+C/C++: ninja: error: mkdir(CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/transforms/operations): No such file or directory
+
+> Task :expo-dev-launcher:compileDebugKotlin
+w: file:///C:/Users/HP/source/repos/UltraSave/node_modules/expo-dev-launcher/android/src/debug/java/expo/modules/devlauncher/DevLauncherController.kt:519:12 Call uses reflection API which is not found in compilation classpath. Make sure you have kotlin-reflect.jar in the classpath.
+w: file:///C:/Users/HP/source/repos/UltraSave/node_modules/expo-dev-launcher/android/src/debug/java/expo/modules/devlauncher/launcher/DevLauncherRecentlyOpenedAppsRegistry.kt:33:47 Unchecked cast of 'MutableMap<Any?, Any?>' to 'MutableMap<String, Any>'.
+w: file:///C:/Users/HP/source/repos/UltraSave/node_modules/expo-dev-launcher/android/src/debug/java/expo/modules/devlauncher/launcher/DevLauncherRecentlyOpenedAppsRegistry.kt:51:27 'fun getRawJson(): JSONObject' is deprecated. Prefer to use specific field getters.
+w: file:///C:/Users/HP/source/repos/UltraSave/node_modules/expo-dev-launcher/android/src/debug/java/expo/modules/devlauncher/modules/DevLauncherModule.kt:14:29 'fun getRawJson(): JSONObject' is deprecated. Prefer to use specific field getters.
+w: file:///C:/Users/HP/source/repos/UltraSave/node_modules/expo-dev-launcher/android/src/debug/java/expo/modules/devlauncher/react/DevLauncherBridgelessDevSupportManager.kt:48:38 This code uses error suppression for 'NOTHING_TO_OVERRIDE'. While it might compile and work, the compiler behavior is UNSPECIFIED and WILL NOT BE PRESERVED. Please report your use case to the Kotlin issue tracker instead: https://kotl.in/issue
+w: file:///C:/Users/HP/source/repos/UltraSave/node_modules/expo-dev-launcher/android/src/debug/java/expo/modules/devlauncher/react/DevLauncherDevSupportManagerFactory.kt:18:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///C:/Users/HP/source/repos/UltraSave/node_modules/expo-dev-launcher/android/src/main/java/expo/modules/devlauncher/DevLauncherPackage.kt:15:16 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+
+[Incubating] Problems report is available at: file:///C:/Users/HP/source/repos/UltraSave/android/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':react-native-reanimated:buildCMakeDebug[x86_64][reanimated]'.
+> com.android.ide.common.process.ProcessException: ninja: Entering directory `C:\Users\HP\source\repos\UltraSave\node_modules\react-native-reanimated\android\.cxx\Debug\64475p20\x86_64'
+  [0/2] Re-checking globbed directories...
+  [1/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/transforms/Quaternion.cpp.o
+  [2/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/filters/FilterOp.cpp.o
+  [3/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/transforms/TransformMatrix.cpp.o
+  [4/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/transforms/TransformMatrix2D.cpp.o
+  [5/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/LayoutAnimations/PropsDiffer.cpp.o
+  [6/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/LayoutAnimations/LayoutAnimationsProxyRegistry.cpp.o
+  [7/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/AnimatedSensor/AnimatedSensorModule.cpp.o
+  [8/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/Fabric/updates/AnimatedPropsRegistry.cpp.o
+  [9/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/Fabric/updates/OperationsLoop.cpp.o
+  [10/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/Fabric/updates/SynchronousWritesTracker.cpp.o
+  [11/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/Fabric/updates/UpdatesRegistry.cpp.o
+  [12/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/LayoutAnimations/LayoutAnimationsManager.cpp.o
+  [13/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/LayoutAnimations/StaleSynchronousPropsTracker.cpp.o
+  [14/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/Fabric/updates/UpdatesRegistryManager.cpp.o
+  [15/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/LayoutAnimations/LayoutAnimationsProxyCommon.cpp.o
+  [16/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/LayoutAnimations/LayoutAnimationsProxy_Legacy.cpp.o
+  [17/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/NativeModules/SynchronousPropsBufferSerializer.cpp.o
+  [18/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/NativeModules/PropValueProcessor.cpp.o
+  [19/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/transforms/vectors.cpp.o
+  [20/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/transforms/TransformOp.cpp.o
+  [21/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/RuntimeDecorators/UIRuntimeDecorator.cpp.o
+  [22/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/LayoutAnimations/LayoutAnimationsProxy.cpp.o
+  [23/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/values/CSSKeyword.cpp.o
+  [24/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/values/CSSBoolean.cpp.o
+  [25/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/transforms/TransformMatrix3D.cpp.o
+  [26/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/values/CSSDiscreteArray.cpp.o
+  [27/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/values/CSSLength.cpp.o
+  [28/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/values/CSSNumber.cpp.o
+  [29/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/RuntimeDecorators/RNRuntimeDecorator.cpp.o
+  [30/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/PseudoStyles/PseudoStylesRegistry.cpp.o
+  [31/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/values/complex/CSSDropShadow.cpp.o
+  [32/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/configs/CSSKeyframesConfig.cpp.o
+  [33/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/configs/CSSTransitionConfig.cpp.o
+  [34/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/LayoutAnimations/SharedTransitions.cpp.o
+  [35/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/values/complex/CSSBoxShadow.cpp.o
+  [36/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/events/CSSEventsEmitter.cpp.o
+  [37/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/configs/CSSAnimationConfig.cpp.o
+  [38/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/core/CSSAnimationsGroup.cpp.o
+  [39/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/core/transition/CSSPlatformTransitionProxy.cpp.o
+  [40/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/values/CSSValueVariant.cpp.o
+  [41/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/core/transition/CSSLoopTransition.cpp.o
+  [42/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/core/transition/CSSTransition.cpp.o
+  [43/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/filters/FilterOperation.cpp.o
+  [44/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/groups/ArrayPropertiesInterpolator.cpp.o
+  [45/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/filters/FilterStyleInterpolator.cpp.o
+  [46/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/InterpolatorFactory.cpp.o
+  [47/96] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/operations/StyleOperation.cpp.o
+  ninja: build stopped: .
+
+  C++ build system [build] failed while executing:
+      @echo off
+      "C:\\Users\\HP\\source\\repos\\UltraSave\\.tmp\\android-cmake-tool\\bin\\ninja.exe" ^
+        -C ^
+        "C:\\Users\\HP\\source\\repos\\UltraSave\\node_modules\\react-native-reanimated\\android\\.cxx\\Debug\\64475p20\\x86_64" ^
+        reanimated
+    from C:\Users\HP\source\repos\UltraSave\node_modules\react-native-reanimated\android
+  ninja: error: mkdir(CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/transforms/operations): No such file or directory
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 3m 50s
+418 actionable tasks: 59 executed, 359 up-to-date
+Error: C:\Users\HP\source\repos\UltraSave\android\gradlew.bat app:assembleDebug -x lint -x test --configure-on-demand --build-cache -PreactNativeDevServerPort=8081 -PreactNativeArchitectures=x86_64 exited with non-zero code: 1
+Error: C:\Users\HP\source\repos\UltraSave\android\gradlew.bat app:assembleDebug -x lint -x test --configure-on-demand --build-cache -PreactNativeDevServerPort=8081 -PreactNativeArchitectures=x86_64 exited with non-zero code: 1
+    at ChildProcess.completionListener (C:\Users\HP\source\repos\UltraSave\node_modules\@expo\spawn-async\build\spawnAsync.js:113:23)
+    at Object.onceWrapper (node:events:631:26)
+    at ChildProcess.emit (node:events:509:28)
+    at cp.emit (C:\Users\HP\source\repos\UltraSave\node_modules\cross-spawn\lib\enoent.js:34:29)
+    at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+    ...
+    at spawnAsync (C:\Users\HP\source\repos\UltraSave\node_modules\@expo\spawn-async\build\spawnAsync.js:9:23)
+    at spawnGradleAsync (C:\Users\HP\source\repos\UltraSave\node_modules\expo\node_modules\@expo\cli\build\src\start\platforms\android\gradle.js:115:48)
+    at assembleAsync (C:\Users\HP\source\repos\UltraSave\node_modules\expo\node_modules\@expo\cli\build\src\start\platforms\android\gradle.js:88:18)
+    at runAndroidAsync (C:\Users\HP\source\repos\UltraSave\node_modules\expo\node_modules\@expo\cli\build\src\run\android\runAndroidAsync.js:100:45)
+
+HP@DESKTOP-N30NLUA MINGW64 ~/source/repos/UltraSave
+$ pm ci
+bash: pm: command not found
+
+HP@DESKTOP-N30NLUA MINGW64 ~/source/repos/UltraSave
+$ npm ci
+
+added 545 packages, and audited 546 packages in 6m
+
+46 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+HP@DESKTOP-N30NLUA MINGW64 ~/source/repos/UltraSave
+$ npm run android
+
+> ultrasave@0.1.0 android
+> node scripts/android.cjs
+
+Using Java 17: C:\Users\HP\.gradle\jdks\eclipse_adoptium-17-amd64-windows.2
+› Building app...
+Configuration on demand is an incubating feature.
+
+> Configure project :
+[ExpoRootProject] The Kotlin Gradle plugin used by this build is 2.2.10, but the version catalog declares 2.2.0. Using the plugin version.
+[ExpoRootProject] Using the following versions:
+  - buildTools:  37.0.0
+  - minSdk:      24
+  - compileSdk:  37
+  - targetSdk:   36
+  - ndk:         27.1.12297006
+  - kotlin:      2.2.10
+  - ksp:         2.2.10-2.0.2
+
+> Configure project :app
+WARNING: The option setting 'android.builtInKotlin=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+WARNING: The option setting 'android.newDsl=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+ ??  Applying gradle plugin 'expo-max-sdk-override-plugin'
+  [expo-max-sdk-override-plugin] This plugin will find all permissions declared with `android:maxSdkVersion`. If there exists a declaration with the `android:maxSdkVersion` annotation and another one without, the plugin will remove the annotation from the final merged manifest. In order to see a log with the changes run a clean build of the app.
+WARNING: API 'applicationVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling applicationVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'testVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling testVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'unitTestVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling unitTestVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+ ??  Applying gradle plugin 'expo-dev-launcher-gradle-plugin'
+
+> Configure project :expo
+WARNING: API 'libraryVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling libraryVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+Using expo modules
+  - expo-dom-webview (58.0.2)
+  - expo-log-box (58.0.15)
+  - expo-constants (58.0.15)
+  - expo-dev-client (58.0.18)
+  - expo-dev-launcher (58.0.18)
+  - expo-dev-menu (58.0.12)
+  - expo-dev-menu-interface (58.0.1)
+  - expo-json-utils (58.0.1)
+  - expo-manifests (58.0.1)
+
+> Configure project :expo-modules-core
+Linking react-native-worklets native libs into expo-modules-core build tasks
+task ':react-native-worklets:mergeDebugNativeLibs'
+task ':react-native-worklets:mergeReleaseNativeLibs'
+
+> Configure project :expo
+  - expo-modules-core (58.0.30)
+  - expo-updates-interface (58.0.1)
+  - ultrasave-storage (0.1.0)
+  - [?] expo-asset (58.0.20)
+  - [?] expo-clipboard (58.0.4)
+  - [?] expo-document-picker (58.0.4)
+  - [?] expo-file-system (58.0.13)
+  - [?] expo-font (58.0.11)
+  - [?] expo-keep-awake (58.0.3)
+  - [?] expo-linking (58.0.16)
+  - [?] expo-router (58.0.30)
+  - [?] expo-secure-store (58.0.2)
+  - [?] expo-sharing (58.0.22)
+  - [?] expo-sqlite (58.0.15)
+  - [?] expo-status-bar (58.0.4)
+  - [?] expo-system-ui (58.0.7)
+  - [?] expo-video (58.0.13)
+
+
+> Task :react-native-reanimated:buildCMakeDebug[x86_64][reanimated]
+C/C++: ninja: error: mkdir(CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/transforms/operations): No such file or directory
+
+> Task :react-native-reanimated:buildCMakeDebug[x86_64][reanimated] FAILED
+
+[Incubating] Problems report is available at: file:///C:/Users/HP/source/repos/UltraSave/android/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':react-native-reanimated:buildCMakeDebug[x86_64][reanimated]'.
+> com.android.ide.common.process.ProcessException: ninja: Entering directory `C:\Users\HP\source\repos\UltraSave\node_modules\react-native-reanimated\android\.cxx\Debug\64475p20\x86_64'
+  [0/2] Re-checking globbed directories...
+  [1/113] Building CXX object CMakeFiles/reanimated.dir/cmake_pch.hxx.pch
+  [2/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/transforms/Quaternion.cpp.o
+  [3/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/transforms/TransformMatrix2D.cpp.o
+  [4/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/filters/FilterOp.cpp.o
+  [5/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/transforms/TransformMatrix.cpp.o
+  [6/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/LayoutAnimations/LayoutAnimationsManager.cpp.o
+  [7/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/AnimatedSensor/AnimatedSensorModule.cpp.o
+  [8/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/Fabric/updates/AnimatedPropsRegistry.cpp.o
+  [9/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/Fabric/updates/SynchronousWritesTracker.cpp.o
+  [10/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/Fabric/updates/OperationsLoop.cpp.o
+  [11/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/LayoutAnimations/PropsDiffer.cpp.o
+  [12/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/Fabric/updates/UpdatesRegistryManager.cpp.o
+  [13/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/Fabric/updates/UpdatesRegistry.cpp.o
+  [14/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/LayoutAnimations/LayoutAnimationsProxyRegistry.cpp.o
+  [15/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/Tools/FeatureFlags.cpp.o
+  [16/113] Building CXX object CMakeFiles/reanimated.dir/src/main/cpp/reanimated/android/CSS/CSSPlatformEasings.cpp.o
+  [17/113] Building CXX object CMakeFiles/reanimated.dir/src/main/cpp/reanimated/android/CSS/CSSPlatformTransitions.cpp.o
+  [18/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/LayoutAnimations/LayoutAnimationsProxyCommon.cpp.o
+  [19/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/Tools/ReanimatedVersion.cpp.o
+  [20/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/RuntimeDecorators/UIRuntimeDecorator.cpp.o
+  [21/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/Fabric/ShadowTreeCloner.cpp.o
+  [22/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/NativeModules/SynchronousPropsBufferSerializer.cpp.o
+  [23/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/InterpolatorRegistry.cpp.o
+  [24/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/NativeModules/PropValueProcessor.cpp.o
+  [25/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/transforms/vectors.cpp.o
+  [26/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/LayoutAnimations/LayoutAnimationsProxy_Legacy.cpp.o
+  [27/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/transforms/TransformOp.cpp.o
+  [28/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/LayoutAnimations/StaleSynchronousPropsTracker.cpp.o
+  [29/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/transforms/TransformMatrix3D.cpp.o
+  [30/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/values/CSSColor.cpp.o
+  [31/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/values/CSSBoolean.cpp.o
+  [32/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/values/CSSKeyword.cpp.o
+  [33/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/values/CSSDiscreteArray.cpp.o
+  [34/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/LayoutAnimations/LayoutAnimationsProxy.cpp.o
+  [35/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/values/CSSAngle.cpp.o
+  [36/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/values/CSSNumber.cpp.o
+  [37/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/RuntimeDecorators/RNRuntimeDecorator.cpp.o
+  [38/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/values/CSSLength.cpp.o
+  [39/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/PseudoStyles/PseudoStylesRegistry.cpp.o
+  [40/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/configs/common.cpp.o
+  [41/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/LayoutAnimations/SharedTransitions.cpp.o
+  [42/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/values/complex/CSSDropShadow.cpp.o
+  [43/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/values/complex/CSSBoxShadow.cpp.o
+  [44/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/configs/CSSTransitionConfig.cpp.o
+  [45/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/configs/CSSKeyframesConfig.cpp.o
+  [46/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/common/values/CSSValueVariant.cpp.o
+  [47/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/configs/CSSAnimationConfig.cpp.o
+  [48/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/core/CSSAnimation.cpp.o
+  [49/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/events/CSSEventsEmitter.cpp.o
+  [50/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/easing/cubicBezier.cpp.o
+  [51/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/easing/EasingConfigs.cpp.o
+  [52/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/core/transition/CSSPlatformTransitionProxy.cpp.o
+  [53/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/easing/steps.cpp.o
+  [54/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/core/transition/CSSLoopTransition.cpp.o
+  [55/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/core/transition/CSSTransition.cpp.o
+  [56/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/core/CSSLoopAnimation.cpp.o
+  [57/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/core/CSSAnimationsGroup.cpp.o
+  [58/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/easing/EasingFunctions.cpp.o
+  [59/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/easing/linear.cpp.o
+  [60/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/filters/FilterOperation.cpp.o
+  [61/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/PropertyInterpolator.cpp.o
+  [62/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/NativeModules/ReanimatedModuleProxy.cpp.o
+  [63/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/filters/FilterOperationInterpolator.cpp.o
+  [64/113] Building CXX object CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/filters/FilterStyleInterpolator.cpp.o
+  ninja: build stopped: .
+
+  C++ build system [build] failed while executing:
+      @echo off
+      "C:\\Users\\HP\\source\\repos\\UltraSave\\.tmp\\android-cmake-tool\\bin\\ninja.exe" ^
+        -C ^
+        "C:\\Users\\HP\\source\\repos\\UltraSave\\node_modules\\react-native-reanimated\\android\\.cxx\\Debug\\64475p20\\x86_64" ^
+        reanimated
+    from C:\Users\HP\source\repos\UltraSave\node_modules\react-native-reanimated\android
+  ninja: error: mkdir(CMakeFiles/reanimated.dir/C_/Users/HP/source/repos/UltraSave/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/transforms/operations): No such file or directory
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 6m 33s
+452 actionable tasks: 197 executed, 204 from cache, 51 up-to-date
+Error: C:\Users\HP\source\repos\UltraSave\android\gradlew.bat app:assembleDebug -x lint -x test --configure-on-demand --build-cache -PreactNativeDevServerPort=8081 -PreactNativeArchitectures=x86_64 exited with non-zero code: 1
+Error: C:\Users\HP\source\repos\UltraSave\android\gradlew.bat app:assembleDebug -x lint -x test --configure-on-demand --build-cache -PreactNativeDevServerPort=8081 -PreactNativeArchitectures=x86_64 exited with non-zero code: 1
+    at ChildProcess.completionListener (C:\Users\HP\source\repos\UltraSave\node_modules\@expo\spawn-async\build\spawnAsync.js:113:23)
+    at Object.onceWrapper (node:events:631:26)
+    at ChildProcess.emit (node:events:509:28)
+    at cp.emit (C:\Users\HP\source\repos\UltraSave\node_modules\cross-spawn\lib\enoent.js:34:29)
+    at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+    ...
+    at spawnAsync (C:\Users\HP\source\repos\UltraSave\node_modules\@expo\spawn-async\build\spawnAsync.js:9:23)
+    at spawnGradleAsync (C:\Users\HP\source\repos\UltraSave\node_modules\expo\node_modules\@expo\cli\build\src\start\platforms\android\gradle.js:115:48)
+    at assembleAsync (C:\Users\HP\source\repos\UltraSave\node_modules\expo\node_modules\@expo\cli\build\src\start\platforms\android\gradle.js:88:18)
+    at runAndroidAsync (C:\Users\HP\source\repos\UltraSave\node_modules\expo\node_modules\@expo\cli\build\src\run\android\runAndroidAsync.js:100:45)

@@ -1,0 +1,10 @@
+apply plugin: 'com.android.library'
+apply plugin: 'expo-module-gradle-plugin'
+
+group = 'com.ultrasave.storage'
+version = '0.1.0'
+
+android {
+  namespace 'com.ultrasave.storage'
+  defaultConfig { versionCode 1; versionName '0.1.0' }
+}
